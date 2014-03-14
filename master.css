@@ -510,3 +510,31 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
     height: 48px;
     padding: 0 48px 0 0;
 }
+
+/*
+ * Same as Doony theme
+ * The console output doesn't have an ID on it, sadly, so style its place in
+ * the DOM and hope nothing else is affected
+ *
+ * If you hit consoleText you can view the raw console text, let's style that
+ * too.
+ */
+body > pre,
+#main-panel > pre {
+  font-size: 14px;
+  background-color: #111;
+  color: #eee;
+  padding: 10px 10px 30px;
+  border-radius: 3px;
+}
+
+/**
+ * Set the link color in console output
+ */
+body > pre a,
+body > pre a:visited,
+#main-panel pre a,
+#main-panel pre a:visited {
+  color: #ED4A6A;
+}
+
