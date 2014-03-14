@@ -4,7 +4,7 @@ body {
 
 #top-panel {
     height: 37px !important;
-    background: #036;
+    background: #000;
 }
 
 #top-panel td #login-field span a {
@@ -21,8 +21,8 @@ body {
 }
 
 #breadcrumbs {
-    background: #326ca6;
-    border-top: 1px solid #036;
+    background: #3d454c;
+    border-top: 1px solid #29333a;
     border-bottom: none !important;
     margin-bottom: 10px;
     padding-left: 8px !important;
