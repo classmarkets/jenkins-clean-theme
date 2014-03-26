@@ -1,5 +1,4 @@
-// Window load event used just in case window height is dependant upon images
-var $jq = jQuery.noConflict(true);
+(function($jq) {
 
 function stickyFoot() {
   var bodyHeight = $jq("body.yui-skin-sam").height();
@@ -20,3 +19,5 @@ $jq(window).resize(function() {
 $jq(document).scroll(function() {
   stickyFoot();
 });
+
+})(jQuery)
