@@ -2,20 +2,16 @@ body {
     background: #F0F0F0 !important;
 }
 
-#top-panel {
-    height: 37px !important;
+#header {
+    height: 50px !important;
     background: #0D90CC;
 }
 
-#top-panel td #login-field span a {
+#header td #searchform a {
     background: none;
 }
 
-#top-panel td #searchform a {
-    background: none;
-}
-
-#top-panel td > a {
+#header td > a {
     display: block;
     width: 300px;
 }
@@ -71,16 +67,12 @@ body {
     outline: none !important;
 }
 
-.yui-skin-sam .yui-ac {
-    margin-top: 3px !important;
-}
-
 #search-form > a {
     padding-bottom: 5px;
 }
 
 /* dat selector */
-#top-panel > table > tbody > tr > td:first-of-type > a  > img {
+#header > table > tbody > tr > td:first-of-type > a  > img {
     margin-top: 5px;
 }
 
@@ -106,16 +98,16 @@ a {
     text-decoration: none !important;
 }
 
-#login-field a {
+#header .login a {
 	color: white !important;
 }
 
-#login-field > span > a {
+#header .login > span > a {
     color: white !important;
     font-weight: normal !important;
 }
 
-#login-field > span > a:hover {
+#header .login > span > a:hover {
     text-decoration: none !important;
 }
 
@@ -205,9 +197,10 @@ td.inactive:hover {
 }
 
 #main-panel {
+    box-sizing: border-box;
+    background: white !important;
     border-left: 1px solid #ddd !important;
     padding: 10px !important;
-    margin-left: 10px !important;
     height: 100% !important;
 }
 
