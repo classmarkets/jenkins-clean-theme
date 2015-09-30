@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    height: 50px !important;
+    height: 40px !important;
     background: #0D90CC;
 }
 
@@ -50,6 +50,10 @@ body {
 #right-top-nav  a:hover {
     background: white;
     color: black !important;
+}
+
+#tasks {
+    margin-left: 10px;
 }
 
 #main-table {
@@ -239,17 +243,8 @@ table {
     margin: 0px !important;
 }
 
-#side-panel div {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 #side-panel tr {
     border: none !important;
-}
-
-.pane {
-    margin-top: 15px !important;
 }
 
 .task, .subtasks {
@@ -278,10 +273,6 @@ td.pane:first-of-type, tr.build-row > td:first-of-type, th.pane:first-of-type {
 .build-row:last-of-type > td {
     padding-top: 10px !important;
     background: inherit !important;
-}
-
-form {
-    clear: both;
 }
 
 .pane-header, .pane-header > a {
