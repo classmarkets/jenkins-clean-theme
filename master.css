@@ -541,3 +541,7 @@ body > pre a:visited,
 #build-pipeline-plugin-content table tr {
     border-bottom: none !important;
 }
+
+#description ~ #matrix {
+    display: inline-block;
+}
